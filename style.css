@@ -1,0 +1,77 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 1em;
+}
+
+.row {
+    width: 85%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #2E323F;
+}
+
+/* =============SECTION-1 START=========================*/
+
+.section-1 {
+    background-color: #3B4050;
+}
+.section-1 h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.white-span {
+    color: white;
+}
+
+.span-color {
+    color: #A59678
+}
+
+.section-1 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.section-1-button-like {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    background-color: #A59678;
+    /*border: 1px solid red;*/
+    border-radius: 30px;
+    
+}
+
+/*================SECTION-1 END=================*/
+
+.section-2 {
+    background-color: gray;
+
+}
+
+.section-3 {
+    background-color: white;
+}
+
+footer {
+    background-color: #3B4050;
+}
