@@ -63,14 +63,73 @@ nav {
 
 /*================SECTION-1 END=================*/
 
+/*=================SECTION-2 START=============*/
+
 .section-2 {
     background-color: gray;
-
+    text-align: center;
 }
 
+.section-2 h2 {
+    color: #A59678;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.section-2-black-color {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+   
+}
+
+
+
+/*==================SECTION-2 END================*/
+
+/*==================SECTION-3 START=================*/
 .section-3 {
     background-color: white;
 }
+
+.color-box {
+    background-color: #2E323F;
+    padding: 1em;
+}
+
+.color-box + .color-box {
+    margin-top: 10px;
+}
+
+.heading {
+    color: #A59678;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.white-heading {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.white {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.black-color {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+}
+
+/*====================SECTION-3 END==================*/
 
 footer {
     background-color: #3B4050;
