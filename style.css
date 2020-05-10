@@ -16,13 +16,46 @@ img {
     max-width: 100%;
 }
 
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
 body {
     margin: 0;
 }
 
+/*====================NAV-BAR START=====================*/
 nav {
     background-color: #2E323F;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
 }
+
+
+.nav-list + .nav-list {
+    margin-top: 0.5em;
+}
+
+.list-buttonlike {
+    max-width: 100px;;
+    background-color: #A59678;
+    /*border: 1px solid red;*/
+    border-radius: 30px;
+    margin: 0 auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+
+/*=====================NAV-BAR END======================*/
 
 /* =============SECTION-1 START=========================*/
 
@@ -32,7 +65,7 @@ nav {
 .section-1 h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 55px;
 }
 
 .white-span {
@@ -50,6 +83,7 @@ nav {
 }
 
 .section-1-button-like {
+    max-width: 300px;
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
@@ -58,6 +92,8 @@ nav {
     background-color: #A59678;
     /*border: 1px solid red;*/
     border-radius: 30px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     
 }
 
@@ -131,6 +167,40 @@ nav {
 
 /*====================SECTION-3 END==================*/
 
+
+/*=====================FOOTER START==================*/
 footer {
     background-color: #3B4050;
+
 }
+
+.footer-heading {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+footer h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    color: #A59678;
+}
+
+.footer-white {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.footer-li {
+    list-style-type: none;
+}
+
+.footer-li + .footer-li {
+    margin-top: 1em;
+}
+
+
+/*============================FOOTER END=============*/
