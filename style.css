@@ -35,6 +35,59 @@ body {
     margin: 0;
 }
 
+.nav-toggle {
+    cursor: pointer;
+    border: 0;
+    width: 3em;
+    height: 3em;
+    padding: 0em;
+    border-radius: 50%;
+    background: #2E323F;
+    color: white;
+    transition: opacity 250ms ease;
+    
+    position: absolute;
+    left: 10px;
+}
+
+.nav-toggle:focus,
+.nav-toggle:hover {
+    opacity: .75;
+}
+
+.hamburger {
+    width: 50%;
+    position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    display: block;
+    margin: 0 auto;
+    height: 3px;
+    background: white;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    width: 100%;
+}
+
+.hamburger::before {
+    transform: translateY(-6px);
+}
+
+.hamburger::after {
+    transform: translateY(3px);
+}
+
+a:focus,
+a:hover {
+    opacity: .75;
+}
+
 /*====================NAV-BAR START=====================*/
 nav {
     background-color: #2E323F;
@@ -46,6 +99,18 @@ nav {
     text-align: center;
 }
 
+.nav-row {
+    visibility: hidden;
+    height: 0;
+    position: absolute;
+}
+
+.nav--visible {
+    visibility: visible;
+    height: auto;
+    position: relative;
+} 
+
 .logo {
     padding-top: 0.3em;
     padding-bottom: 0.3em;
@@ -56,8 +121,18 @@ nav {
     padding-bottom: 0.3em;
 }
 
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+} 
+
 .nav-list + .nav-list {
     margin-top: 0;
+}
+
+.nav-list:focus,
+.nav-list:hover {
+    opacity: .75;
 }
 
 .list-buttonlike {
@@ -110,6 +185,11 @@ nav {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     
+}
+
+.section-1-button-like:focus,
+.section-1-button-like:hover {
+    opacity: .75;
 }
 
 /*================SECTION-1 END=================*/
@@ -219,6 +299,11 @@ footer h2 {
     margin-top: 1em;
 }
 
+.footer-li:focus,
+.footer-li:hover {
+    opacity: 0.75;
+}
+
 
 /*============================FOOTER END=============*/
 
@@ -233,7 +318,16 @@ footer h2 {
  /* =============NAV START=========================*/
 
     .nav-row {
+        
+        visibility: visible;
+        height: 0;
+        position: relative;
+        
         display: flex;
+    }
+
+    .nav-toggle {
+        display: none;
     }
     
     .nav-list + .nav-list {
