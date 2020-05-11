@@ -41,7 +41,7 @@ nav {
     color: white;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     justify-content: center;
     text-align: center;
 }
@@ -186,21 +186,22 @@ nav {
 /*=====================FOOTER START==================*/
 footer {
     background-color: #3B4050;
-
+    justify-content: center;
+    text-align: center;
 }
 
 .footer-heading {
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 30px;
     justify-self: center;
 }
 
 footer h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
-    font-size: 21px;
+    font-size: 18px;
     color: #A59678;
 }
 
@@ -237,7 +238,7 @@ footer h2 {
     
     .nav-list + .nav-list {
         margin-top: 0;
-        margin-left: 0.5em;
+        margin-left: 1em;
     }
 
 
@@ -271,10 +272,11 @@ footer h2 {
     }
 
     .color-box {
-        align-self: flex-end;
+        align-self: center;
     }
 
     .color-box + .color-box {
+        margin-top: 0;
         margin-left: 10px;
     }
 
@@ -303,9 +305,10 @@ footer h2 {
         align-content: flex-start;
     }
 
-    .color.box + .color-box {
-        margin-left: 10px;
+    .color-box {
+        margin: 10px;
     }
+
 
     .fat-col {
         width: 60%;
